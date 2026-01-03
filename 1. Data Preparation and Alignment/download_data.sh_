@@ -1,0 +1,7 @@
+# Download raw SRA files
+prefetch SRR11392452
+prefetch SRR11392444
+
+# Convert SRA → FASTQ
+fasterq-dump --split-files SRR11392452
+fasterq-dump --split-files SRR11392444
