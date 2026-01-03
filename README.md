@@ -43,7 +43,7 @@ Multiple testing correction: Benjamini–Hochberg
 Enrichment analyses were performed separately for genes associated with broad peaks and filtered promoter-associated peaks. Given the lack of biological replication, results are interpreted as descriptive trends. Stress-related pathways were identified through keyword-based filtering of GO terms containing the word “stress”.
 
 # 5. Visualization
-# Data visualization was performed using ggplot2 (v4.0.1). Analyses included:
+Data visualization was performed using ggplot2 (v4.0.1). Analyses included:
 - Genomic feature distribution of H3K4me3 peaks
 - Distance-to-TSS plots to assess promoter enrichment
 - Bar plots comparing stress-related GO terms between broad and filtered peak sets
